@@ -3,6 +3,7 @@ set nu
 syntax enable 
 filetype on
 filetype plugin on
+filetype indent on
 map <C-n> :NERDTreeToggle<CR>
 colorscheme molokai
 let g:molokai_original = 1
