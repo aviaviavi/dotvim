@@ -1,6 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =4
-let g:netrw_dirhist_1='/Users/apress/dev/main/SavageBeast/Engineering/projects/radio/src/js/build'
-let g:netrw_dirhist_2='/Users/apress/dev/release-mip/SavageBeast/Engineering/projects/deploy/ansible'
-let g:netrw_dirhist_3='/Users/apress/local/bin'
-let g:netrw_dirhist_4='/Users/apress/side/tabs/chromeEx/js'
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/Users/apress/vagrant'
+let g:netrw_dirhist_2='/Users/apress/vagrant/vm-mip/.vagrant/machines'
+let g:netrw_dirhist_3='/Users/apress/.config/mc'
