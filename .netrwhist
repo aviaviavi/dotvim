@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_cnt =4
 let g:netrw_dirhist_1='/Users/apress/vagrant'
 let g:netrw_dirhist_2='/Users/apress/vagrant/vm-mip/.vagrant/machines'
 let g:netrw_dirhist_3='/Users/apress/.config/mc'
+let g:netrw_dirhist_4='/Users/apress/side/dev-wah'
