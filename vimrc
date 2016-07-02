@@ -5,9 +5,11 @@ filetype on
 filetype plugin on
 filetype indent on
 map <C-n> :NERDTreeToggle<CR>
-set background=dark
 colorscheme solarized 
 let g:solarized_termcolors=256
+set t_Co=16
+set background=dark
+
 set tabstop=4
 set shiftwidth=4
 set expandtab
@@ -31,11 +33,10 @@ set clipboard=unnamed
 "escape/unescape & < > HTML entities in range (default current line).
 nnoremap <Leader>h :'[,']call HtmlEscape()<CR>
 vnoremap <Leader>h :call HtmlEscape()<CR>
-
 function HtmlEscape()
   silent s/\&amp;/\&/eg
   silent s/\&lt;/</eg
-  silent s/\&gt;/>/eg
+  silent s/\&gt;/>/e
   silent s/&quot;/"/eg
   silent s/&#39;/'/eg
 endfunction
