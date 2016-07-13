@@ -30,16 +30,10 @@ set smartcase
 
 set clipboard=unnamed
 
-"escape/unescape & < > HTML entities in range (default current line).
-nnoremap <Leader>h :'[,']call HtmlEscape()<CR>
-vnoremap <Leader>h :call HtmlEscape()<CR>
-function HtmlEscape()
-  silent s/\&amp;/\&/eg
-  silent s/\&lt;/</eg
-  silent s/\&gt;/>/e
-  silent s/&quot;/"/eg
-  silent s/&#39;/'/eg
-endfunction
+map <Leader>t :GhcModType<CR>
+map <Leader>l :GhcModTypeClear<CR>
+map <Leader>c :! stack install<CR>
+map <Leader>r :so! $MYVIMRC<CR>
 
 map <C-c> y:e ~/viclipboard<CR>P:w !pbcopy<CR><CR>:bdelete!<CR>
 
