@@ -36,6 +36,8 @@ Plugin 'Townk/vim-autoclose'
 Plugin 'scrooloose/syntastic'
 Plugin 'bling/vim-airline'
 Plugin 'scrooloose/nerdcommenter'
+Plugin 'elixir-lang/vim-elixir'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -47,6 +49,7 @@ filetype on
 filetype plugin on
 filetype indent on
 map <C-n> :NERDTreeToggle<CR>
+map <C-b> :CtrlPBuffer<CR>
 colorscheme solarized 
 let g:solarized_termcolors=256
 set t_Co=16
