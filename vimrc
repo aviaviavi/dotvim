@@ -38,6 +38,8 @@ Plugin 'bling/vim-airline'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'elixir-lang/vim-elixir'
 Plugin 'derekwyatt/vim-scala'
+Plugin 'eagletmt/ghcmod-vim'
+Plugin 'Shougo/vimproc.vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -85,3 +87,7 @@ map <C-c> y:e ~/viclipboard<CR>P:w !pbcopy<CR><CR>:bdelete!<CR>
 
 "for vim-airline
 set laststatus=2
+let g:airline#extensions#tabline#enabled = 1
+
+map <F7> :bp<CR>
+map <F9> :bn<CR>
