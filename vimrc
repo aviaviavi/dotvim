@@ -66,6 +66,7 @@ set showcmd
 set foldmethod=marker
 set autoindent
 set encoding=UTF-8
+set backspace=2
 
 "tab completion
 set wildmenu
@@ -91,3 +92,4 @@ let g:airline#extensions#tabline#enabled = 1
 
 map <F7> :bp<CR>
 map <F9> :bn<CR>
+
