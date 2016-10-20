@@ -40,6 +40,7 @@ Plugin 'elixir-lang/vim-elixir'
 Plugin 'derekwyatt/vim-scala'
 Plugin 'eagletmt/ghcmod-vim'
 Plugin 'Shougo/vimproc.vim'
+Plugin 'airblade/vim-gitgutter'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -93,3 +94,4 @@ let g:airline#extensions#tabline#enabled = 1
 map <F7> :bp<CR>
 map <F9> :bn<CR>
 
+:set tags=~/mytags
