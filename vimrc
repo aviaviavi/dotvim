@@ -38,10 +38,8 @@ Plugin 'bling/vim-airline'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'elixir-lang/vim-elixir'
 Plugin 'derekwyatt/vim-scala'
-Plugin 'eagletmt/ghcmod-vim'
 Plugin 'Shougo/vimproc.vim'
 Plugin 'airblade/vim-gitgutter'
-Plugin 'Shougo/neocomplete.vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
